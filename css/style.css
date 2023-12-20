@@ -66,7 +66,7 @@
 }
 
 .btn_action {
-    width: 200px;
+    width: 300px;
     height: 50px;
     background: var(--primary);
     border: none;
@@ -85,7 +85,6 @@
 
 .cards_beneficios {
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -93,10 +92,11 @@
 }
 
 .cards_beneficios h2,
-.equipamentos h2 {
+.equipamentos h2,
+.solucoes_ponto h2{
     font-size: 30px;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     color: var(--background-vantagens);
     border-bottom: var(--primary) solid 2px;
 }
@@ -106,6 +106,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    margin-bottom: 2rem;
 }
 
 .cards_beneficios .card {
@@ -126,7 +127,6 @@
 
 .equipamentos {
     width: 100%;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -151,4 +151,49 @@
     height: 600px;
     border-radius: 50%;
     margin-top: 2rem;
+}
+
+.solucoes_ponto {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.solucoes_card {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 2rem;
+    background-image: url(../img/fundo.png);
+}
+
+.solucoes_card div {
+    background-color: var(--text-color);
+    width: 400px;
+    height: 280px;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.solucoes_card h3 {
+    color: var(--background-vantagens);
+    font-size: 25px;
+    margin-bottom: 2rem;
+    border-bottom: var(--primary) solid 2px;
+}
+
+.solucoes_card p {
+    color: var(--text-secondary);
+    font-size: 20px;
+    margin-top: 4rem;
 }
