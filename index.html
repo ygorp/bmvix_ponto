@@ -125,11 +125,11 @@
                 </div>
             </div>
             <div class="contato_form">
-                <form action="">
-                    <input type="text" placeholder="Nome">
-                    <input type="text" placeholder="E-mail">
-                    <input type="text" placeholder="Telefone">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <form action="enviar_email_footer.php" method="post">
+                    <input type="text" name="nome" placeholder="Nome">
+                    <input type="text" name="email" placeholder="E-mail">
+                    <input type="text" name="tel" placeholder="Telefone">
+                    <textarea name="obs" id="obs" cols="30" rows="10" placeholder="Mensagem"></textarea>
                     <button type="submit" class="btn_action">Enviar</button>
                 </form>
             </div>
