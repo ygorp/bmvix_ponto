@@ -155,6 +155,11 @@
     margin-top: 2rem;
 }
 
+.equipamentos p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .solucoes_ponto {
     width: 100%;
     height: 100vh;
@@ -165,16 +170,29 @@
 
 .solucoes_card {
     width: 100%;
-    height: 500px;
+    height: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 2rem;
+    background-image: url(../img/fundo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards {
+    width: 100%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 2rem;
-    background-image: url(../img/fundo.png);
 }
 
-.solucoes_card div {
+.cards div {
     background-color: var(--text-color);
     width: 400px;
     height: 280px;
@@ -185,6 +203,21 @@
     cursor: pointer;
     margin-bottom: 1rem;
     border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.video video {
+    width: 40em;
+    border-radius: 10px;
+    border: 2px solid var(--primary);
 }
 
 .solucoes_card h3 {
