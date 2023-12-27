@@ -27,23 +27,15 @@
     width: 150px;
 }
 
-.menu ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    gap: 20px;
-}
-
-.menu ul li a {
+.btn_action_menu {
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #000;
-    font-size: 19px;
-    font-weight: 500;
-}
-
-.menu ul li a:hover {
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--text-color);
 }
 
 .container_banner {
@@ -343,9 +335,11 @@ form textarea {
     margin-right: 5px;
 }
 
-.contatos_info p {
+.contatos_info a {
     font-size: 18px;
     font-weight: 500;
+    text-decoration: none;
+    color: var(--text-secondary);
 }
 
 .contatos_icon {
